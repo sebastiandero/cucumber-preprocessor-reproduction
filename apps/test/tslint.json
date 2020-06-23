@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "cucumberPreprocessorReproduction",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "cucumber-preprocessor-reproduction",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
